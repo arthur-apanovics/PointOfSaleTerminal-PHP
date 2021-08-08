@@ -1,0 +1,13 @@
+{
+    "name": "apanovics/point-of-sale-terminal",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PointOfSaleTerminal\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
